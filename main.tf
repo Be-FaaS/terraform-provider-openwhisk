@@ -10,7 +10,7 @@ resource "openwhisk_function" "fns" {
   name     = each.key
   source   = each.value
   environment = {
-    FAASTERMETRICS_DEPLOYMENT_ID = "456deadbeef"
+    BEFAAS_DEPLOYMENT_ID = "456deadbeef"
 //    TIMESTAMP                    = timestamp()
   }
 }
