@@ -1,4 +1,4 @@
-const lib = require('@faastermetrics/lib')
+const lib = require('@befaas/lib')
 const path = require('path')
 const fs = require('fs')
 
