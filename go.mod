@@ -1,4 +1,4 @@
-module github.com/FaaSterMetrics/terraform-provider-openwhisk
+module github.com/Be-FaaS/terraform-provider-openwhisk
 
 go 1.14
 
